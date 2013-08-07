@@ -12,7 +12,7 @@ Now Branches Post Type with ImageMapper just support one HTML Image Map.
 
 ##### [Demo](http://sinarmas.e-ukm.com/kenali-smile/marketing-office/)
 ##### License: [http://creativecommons.org/licenses/by-nc-sa/3.0/](http://creativecommons.org/licenses/by-nc-sa/3.0/)
-
+##### Using [Jquery Plugin Image Map from Jamietre](https://github.com/jamietre/ImageMapster)
 
 ## Screenshot
 [Demo](demo/imagemap.png "Branches Post Type with ImageMapper")
