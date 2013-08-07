@@ -15,9 +15,9 @@ Now Branches Post Type with ImageMapper just support one HTML Image Map.
 ##### Using [Jquery Plugin Image Map from Jamietre](https://github.com/jamietre/ImageMapster)
 
 ## Screenshot
-![Demo](demo/imagemap.png "Branches Post Type with ImageMapper")
-![Demo](demo/imagemap_selected.png "Image Map Selected")
-![Demo](demo/branches.png "Branches")
-![Demo](demo/add_new_branches.png "Add New Branches")
-![Demo](demo/provinces.png "Provinces")
-![Demo](demo/setting_image_map.png "Setting Image Map")
+![Demo](screenshot/imagemap.png "Branches Post Type with ImageMapper")
+![Demo](screenshot/imagemap_selected.png "Image Map Selected")
+![Demo](screenshot/branches.png "Branches")
+![Demo](screenshot/add_new_branches.png "Add New Branches")
+![Demo](screenshot/provinces.png "Provinces")
+![Demo](screenshot/setting_image_map.png "Setting Image Map")
