@@ -412,7 +412,9 @@ function pch_bpt_wim_branches_with_image_map_html(){
 		$value= ( isset($province_values[$term_id]) ) ? $province_values[$term_id] : "";
 		$arr_province_value= explode("#", $value);
 		foreach( $arr_province_value as $area ){
-			$map_areas.= '<area shape="poly" province="' . $province->slug . '" coords="' . $area . '" href="#" />';
+			if( ! empty($area) ){
+				$map_areas.= '<area shape="poly" province="' . $province->slug . '" coords="' . $area . '" href="#" />';
+			}
 		}
 	}
 
@@ -424,6 +426,7 @@ function pch_bpt_wim_branches_with_image_map_html(){
 		}
 		$('img').mapster({
 			noHrefIsMask: false,
+			isMask: true,
 			onStateChange: state_change,
 			fillColor: '414042',
 			fillOpacity: 1,
