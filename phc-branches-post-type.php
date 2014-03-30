@@ -349,7 +349,7 @@ function pch_bpt_wim_branches_with_image_map_html(){
 		$image_attachment= wp_get_attachment_image_src($image_map_id, 'full');
 		$image_attachment= ($image_attachment) ? $image_attachment : array('', '', '');
 	}
-	
+
 	$terms= array();
 	foreach( $provinces as $province ){
 		$terms[]= $province->slug;
